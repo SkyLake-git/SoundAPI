@@ -1,0 +1,6 @@
+---
+name: SoundAPI
+version: 1.0.0
+main: Lyrica0954\SoundAPI\Main
+api: 3.19.0
+...
