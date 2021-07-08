@@ -17,6 +17,19 @@ $instance = new Sound($player, "sound name", $pitch, $volume);
 $instance->play();
 ```
 
+## 使い方2
+インスタンスを生成しなくとも、1行で再生することもできます。
+
+クラスを使う
+```
+use Lyrica0954\SoundAPI\Main;
+```
+
+再生する
+```
+Main::playSound($player, "sound name", $pitch, $volume);
+```
+
 ## 高度な使い方
 イベントを使う
 ```
